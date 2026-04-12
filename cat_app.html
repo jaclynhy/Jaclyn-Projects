@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Adoption Profiles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🐱 Cat Adoption Profiles</h1>
+            <p class="subtitle">Find your perfect feline companion</p>
+        </header>
+
+        <div class="add-cat-section">
+            <h2>Add a New Cat</h2>
+            <form id="catForm">
+                <div class="form-group">
+                    <label for="catName">Cat Name:</label>
+                    <input 
+                        type="text" 
+                        id="catName" 
+                        placeholder="Enter cat's name" 
+                        required
+                    >
+                </div>
+                <div class="form-group">
+                    <label for="catDescription">Description:</label>
+                    <textarea 
+                        id="catDescription" 
+                        placeholder="Describe the cat's personality, breed, age, etc." 
+                        rows="4"
+                        required
+                    ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Add Cat Profile</button>
+            </form>
+        </div>
+
+        <div class="cats-section">
+            <h2>Available Cats</h2>
+            <div id="catsList" class="cats-grid">
+                <!-- Cat profiles will be added here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
