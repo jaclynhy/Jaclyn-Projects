@@ -1,6 +1,6 @@
 # Jaclyn's Projects
 
-# Bug Tracker (Basic JavaScript)
+# Bug Tracker (JavaScript)
 
 ## Overview
 
@@ -8,6 +8,8 @@ This is a simple bug tracking web application built using HTML, CSS, and JavaScr
 The app allows users to log bugs, assign severity levels, and track their status.
 
 I built this project to strengthen my understanding of frontend logic, state management, and to apply my QA testing experience in a practical way.
+
+Testing
 
 ---
 
