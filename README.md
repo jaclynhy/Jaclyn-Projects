@@ -92,5 +92,5 @@ As part of my QA background, I tested several edge cases:
 
 ## Author
 
-Jac
+Jaclyn
 
