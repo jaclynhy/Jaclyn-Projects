@@ -1,3 +1,4 @@
+#Helloworld program
 print('Hello, World! What\'s your name?')
 name = input()
 print(f'Nice to meet you, {name}!')
@@ -22,3 +23,42 @@ print (text * number)
 number = int(input("Type in a number: "))
 doubled = number * 2
 print (doubled)
+
+
+
+def add_numbers(a, b):
+    return a + b
+print(add_numbers(10, 20))
+print(add_numbers(5, 3))
+
+#call math module
+import math
+dir(math)
+print(dir(math))
+
+#return function
+def add(a, b):
+    return a + b
+x = add(2, 3)
+y = add(x, 10)
+print(y)
+
+#string sequence
+def test_hello_world_indexing():
+    text = "Hello, world!"
+    assert text[0] == "H"
+    assert text[1] == "e"
+    assert text[2] == "l"
+    assert text[3] == "l"
+    assert text[4] == "o"
+    print ("All assertions passed!")
+
+#string sequence
+text = "Hello, world!"
+for i in range(len(text)):
+    print(f"Index {i}: {text[i]}")
+
+
+text = "Hello, world!"
+for char in text:
+    print(char)
